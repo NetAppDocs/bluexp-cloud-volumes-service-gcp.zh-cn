@@ -18,9 +18,9 @@ summary: 如果更改了 DNS 服务器或 Active Directory 域，则需要在 Cl
 
 .步骤
 . 打开工作环境。
-. 单击 image:screenshot_gallery_options.gif[""] 按钮，然后单击 * 管理 Active Directory* 。
+. 单击 image:screenshot_gallery_options.gif["包含三个点的图标"] 按钮，然后单击 * 管理 Active Directory* 。
 +
-如果未配置 Active Directory ，则可以立即添加一个。如果配置了一个，则可以使用修改或删除设置 image:screenshot_gallery_options.gif[""] 按钮。
+如果未配置 Active Directory ，则可以立即添加一个。如果配置了一个，则可以使用修改或删除设置 image:screenshot_gallery_options.gif["包含三个点的图标"] 按钮。
 
 . 指定 SMB 服务器的设置：
 +

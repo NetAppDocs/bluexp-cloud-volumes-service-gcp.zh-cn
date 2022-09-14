@@ -235,7 +235,6 @@
   <block id="8f6f9937d2a2acb76e352fb5e9dfff19" category="summary">您可以从 Cloud Manager 中删除 Cloud Volumes Service for Google Cloud 订阅以及所有现有卷。这些卷不会被删除，而是刚刚从 Cloud Manager 界面中删除。</block>
   <block id="ea4e50481c541cefaed626458af5901f" category="doc">从 Cloud Manager 中删除 Cloud Volumes Service</block>
   <block id="b2639f031018ddb46e5517acac1b12ef" category="admonition">不支持从 Cloud Manager 中删除 Cloud Volumes Service for Google Cloud 订阅。您只能通过 Google Cloud Console 执行此操作。</block>
-  <block id="c723db2b353490931b5febeb5b3ec637" category="list-text">单击 <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> 按钮，然后单击 * 删除 Cloud Volumes Service * 。</block>
   <block id="d6781b097f0c80fef5a0f286b314592a" category="list-text">在确认对话框中，单击 * 删除 * 。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
   <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">有关 Cloud Manager 3.9 的注意事项</block>
@@ -270,14 +269,11 @@
   <block id="c164c685163f0ac5277f4c117b8c9c2c" category="doc">Cloud Volumes Service for Google Cloud 文档</block>
   <block id="07412ee3cf29f80fadf8fe52f687e709" category="summary">如果更改了 DNS 服务器或 Active Directory 域，则需要在 Cloud Volumes Service 中修改 SMB 服务器，以便它可以继续为客户端提供存储。</block>
   <block id="cfc8683315c11129a14f7b806a6f699c" category="doc">管理 Active Directory 配置</block>
-  <block id="69911db82cd6ce5dc7c63d1b33420f3b" category="list-text">单击 <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> 按钮，然后单击 * 管理 Active Directory* 。</block>
-  <block id="6009cb4ef9aecc48bb7af9c3b4fb92ad" category="paragraph">如果未配置 Active Directory ，则可以立即添加一个。如果配置了一个，则可以使用修改或删除设置 <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> 按钮。</block>
   <block id="fd1f3b127eeb96862e4cde53a7ee6267" category="list-text">指定 SMB 服务器的设置：</block>
   <block id="c1ca298a9a9c76ca22ecf23ccaca6448" category="cell">为 SMB 服务器提供名称解析的 DNS 服务器的 IP 地址。引用多个服务器时，请使用逗号分隔 IP 地址，例如 172.31.25.223 ， 172.31.2.74 。</block>
   <block id="4bc62575e91aa40d329c1383c7a4fc46" category="list-text">单击 * 保存 * 以保存设置。</block>
   <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在向 NetApp 技术支持创建支持案例之前，您需要先将 NetApp 支持站点帐户添加到 Cloud Manager 中，然后注册获取支持。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
-  <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
   <block id="bf5d97d0f930d16c4814a56d0ffddf42" category="sidebar">适用于 Google Cloud 的 Cloud Volumes Service 文档</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
@@ -346,4 +342,9 @@
   <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">单击 * 致电我们 * 可查找 NetApp 技术支持的电话号码。</block>
   <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">单击 * 打开问题描述 * ，选择一个选项，然后单击 * 发送 * 。</block>
   <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp 代表将审核您的案例，并尽快与您联系。</block>
+  <block id="f53392d049b9dddff4ba55ad74c96588" category="inline-image-macro">包含三个点的图标</block>
+  <block id="4a6bf9c3f62fb119f3187ec42ecd340d" category="list-text">单击 <block ref="05d0267e107b3cc780d52df5db38eaef" category="inline-image-macro-rx" type="image"></block> 按钮，然后单击 * 管理 Active Directory* 。</block>
+  <block id="b161c15ae834886d4dbb8c09b3bad848" category="paragraph">如果未配置 Active Directory ，则可以立即添加一个。如果配置了一个，则可以使用修改或删除设置 <block ref="05d0267e107b3cc780d52df5db38eaef" category="inline-image-macro-rx" type="image"></block> 按钮。</block>
+  <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">包含三个点的图标。</block>
+  <block id="c2f82cf362208ba8433ec2ba2152c7e3" category="list-text">单击 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> 按钮，然后单击 * 删除 Cloud Volumes Service * 。</block>
 </blocks>

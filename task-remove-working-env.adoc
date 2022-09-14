@@ -21,6 +21,6 @@ TIP: 不支持从 Cloud Manager 中删除 Cloud Volumes Service for Google Cloud
 
 .步骤
 . 打开工作环境。
-. 单击 image:screenshot_gallery_options.gif[""] 按钮，然后单击 * 删除 Cloud Volumes Service * 。
+. 单击 image:screenshot_gallery_options.gif["包含三个点的图标。"] 按钮，然后单击 * 删除 Cloud Volumes Service * 。
 . 在确认对话框中，单击 * 删除 * 。
 
