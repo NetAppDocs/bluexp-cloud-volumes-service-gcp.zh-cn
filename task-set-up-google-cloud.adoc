@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-set-up-google-cloud.html 
 keywords: setup, set up, api, service account, requirements, permissions 
-summary: Cloud Manager 需要通过 Google 云服务帐户访问 Cloud Volumes Service API 和适当的权限。 
+summary: BlueXP需要通过Google云服务帐户访问Cloud Volumes Service API并获得适当的权限。 
 ---
 = 设置 Google Cloud
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Cloud Manager 需要通过 Google 云服务帐户访问 Cloud Volumes S
 
 
 [role="lead"]
-Cloud Manager 需要通过 Google 云服务帐户访问 Cloud Volumes Service API 和适当的权限。
+BlueXP需要通过Google云服务帐户访问Cloud Volumes Service API并获得适当的权限。
 
 
 
@@ -28,7 +28,7 @@ Cloud Manager 需要通过 Google 云服务帐户访问 Cloud Volumes Service AP
 
 == 设置服务帐户
 
-完成以下任务， Cloud Manager 才能访问您的 Google Cloud 项目：
+完成以下任务、以便BlueXP能够访问您的Google Cloud项目：
 
 * 创建新的服务帐户
 * 将新服务帐户成员添加到项目中并为其分配特定角色（权限）

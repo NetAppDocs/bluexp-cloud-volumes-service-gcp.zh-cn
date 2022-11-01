@@ -17,19 +17,19 @@ summary: 按照以下步骤快速入门，或访问链接以获取完整详细�
 按照以下步骤快速入门，或访问链接以获取完整详细信息。
 
 [role="quick-margin-para"]
-在 Google 中，启用适用于 GCP 的 Cloud Volumes Service API ，以便 Cloud Manager 可以管理订阅和云卷。
+在Google中、启用Cloud Volumes Service for GCP API、以便BlueXP可以管理订阅和云卷。
 
 [role="quick-margin-para"]
 link:task-set-up-google-cloud.html["了解如何启用 API"]。
 
 [role="quick-margin-para"]
-在 Google 中，创建服务帐户和角色，以便 Cloud Manager 可以访问您的 Cloud Volumes Service for Google Cloud 帐户。
+在Google中、创建一个服务帐户和角色、以便BlueXP可以访问您的Cloud Volumes Service for Google Cloud帐户。
 
 [role="quick-margin-para"]
 link:task-set-up-google-cloud.html#set-up-a-service-account["了解如何设置服务帐户"]。
 
 [role="quick-margin-para"]
-在 Cloud Volumes Service 中，单击 * 添加工作环境 * > * Google Cloud* > * * ，然后提供有关服务帐户和 Google Cloud 项目的详细信息。
+在BlueXP中、单击*添加工作环境*>* Google Cloud*>* Cloud Volumes Service *、然后提供有关服务帐户和Google Cloud项目的详细信息。
 
 [role="quick-margin-para"]
 link:task-create-working-env.html["了解如何创建工作环境"]。

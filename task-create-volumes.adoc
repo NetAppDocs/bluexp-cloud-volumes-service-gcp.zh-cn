@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-volumes.html 
 keywords: cloud volumes service for gcp, google cloud, cloud volumes, create cloud volumes, mount volume 
-summary: 您可以通过 Cloud Manager 根据 Cloud Volumes Service for Google Cloud 订阅创建云卷。创建卷后，获取相关的挂载命令，以便将卷挂载到客户端。 
+summary: 通过BlueXP、您可以根据Cloud Volumes Service for Google Cloud订阅创建云卷。创建卷后，获取相关的挂载命令，以便将卷挂载到客户端。 
 ---
 = 创建并挂载卷
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 您可以通过 Cloud Manager 根据 Cloud Volumes Service for Google C
 
 
 [role="lead"]
-您可以通过 Cloud Manager 根据 Cloud Volumes Service for Google Cloud 订阅创建云卷。创建卷后，获取相关的挂载命令，以便将卷挂载到客户端。
+通过BlueXP、您可以根据Cloud Volumes Service for Google Cloud订阅创建云卷。创建卷后，获取相关的挂载命令，以便将卷挂载到客户端。
 
 
 
@@ -118,7 +118,7 @@ image:screenshot_cvs_smb_details.png["一个屏幕截图，显示为 SMB Cloud V
 
 == 挂载云卷
 
-从 Cloud Manager 中访问挂载说明，以便将卷挂载到主机。
+从BlueXP中访问挂载说明、以便将卷挂载到主机。
 
 
 NOTE: 使用客户端支持的突出显示的协议 / 拨号。

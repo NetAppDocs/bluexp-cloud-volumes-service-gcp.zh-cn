@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-remove-working-env.html 
 keywords: remove working environment, delete working environment, remove cloud volumes service, remove, delete 
-summary: 您可以从 Cloud Manager 中删除 Cloud Volumes Service for Google Cloud 订阅以及所有现有卷。这些卷不会被删除，而是刚刚从 Cloud Manager 界面中删除。 
+summary: 您可以从BlueXP中删除Cloud Volumes Service for Google Cloud订阅以及所有现有卷。这些卷不会被删除、而是刚刚从BlueXP界面中删除。 
 ---
-= 从 Cloud Manager 中删除 Cloud Volumes Service
+= 从BlueXP中删除Cloud Volumes Service
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,10 +14,10 @@ summary: 您可以从 Cloud Manager 中删除 Cloud Volumes Service for Google C
 
 
 [role="lead"]
-您可以从 Cloud Manager 中删除 Cloud Volumes Service for Google Cloud 订阅以及所有现有卷。这些卷不会被删除，而是刚刚从 Cloud Manager 界面中删除。
+您可以从BlueXP中删除Cloud Volumes Service for Google Cloud订阅以及所有现有卷。这些卷不会被删除、而是刚刚从BlueXP界面中删除。
 
 
-TIP: 不支持从 Cloud Manager 中删除 Cloud Volumes Service for Google Cloud 订阅。您只能通过 Google Cloud Console 执行此操作。
+TIP: 不支持从BlueXP中删除Cloud Volumes Service for Google Cloud订阅。您只能通过 Google Cloud Console 执行此操作。
 
 .步骤
 . 打开工作环境。

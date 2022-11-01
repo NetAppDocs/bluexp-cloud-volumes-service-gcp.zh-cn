@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-working-env.html 
 keywords: cloud volumes service for gcp, google cloud, cloud volumes, create cloud volumes, discover cloud volumes service for gcp, cloud volumes service subscription, discover cloud volumes service subscription, discover region, allowed clients, create snapshots 
-summary: 在 Cloud Manager 中创建适用于 Google Cloud 的 Cloud Volumes Service 工作环境，以创建和管理卷和快照。 
+summary: 在BlueXP中创建适用于Google Cloud的Cloud Volumes Service 工作环境、以创建和管理卷和快照。 
 ---
 = 创建适用于 Google Cloud 的 Cloud Volumes Service 工作环境
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 在 Cloud Manager 中创建适用于 Google Cloud 的 Cloud Volumes Ser
 
 
 [role="lead"]
-在 Cloud Manager 中创建适用于 Google Cloud 的 Cloud Volumes Service 工作环境，以便创建和管理卷和快照。
+在BlueXP中创建适用于Google Cloud的Cloud Volumes Service 工作环境、以便创建和管理卷和快照。
 
 无论您是已从 Google Cloud Console 创建卷，还是刚刚注册了适用于 Google Cloud 的 Cloud Volumes Service 且尚未创建卷，第一步都是根据您的 GCP 订阅为卷创建一个工作环境。
 
@@ -30,7 +30,7 @@ TIP: 如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要对�
 
 
 .步骤
-. 在 Cloud Manager 中，添加一个新的工作环境，选择位置 * Google Cloud* ，然后单击 * 继续 * 。
+. 在BlueXP中、添加一个新的工作环境、选择位置* Google Cloud*、然后单击*继续*。
 . 选择 * Cloud Volumes Service * 并单击 * 继续 * 。
 +
 image:screenshot_add_cvs_gcp_working_env.png["为 Cloud Volumes Service for GCP 订阅添加工作环境的屏幕截图。"]
@@ -48,11 +48,11 @@ image:screenshot_add_cvs_gcp_credentials.png["为 Cloud Volumes Service for GCP 
 
 
 
-Cloud Manager 可显示适用于 Google Cloud 的 Cloud Volumes Service 工作环境。
+BlueXP将显示适用于Google Cloud的Cloud Volumes Service 工作环境。
 
 image:screenshot_cvs_gcp_cloud.png["Cloud Volumes Service for Google Cloud 工作环境的屏幕截图。"]
 
-如果此订阅已存在云卷，则这些卷将显示在新的工作环境中。您可以从 Cloud Manager 添加其他云卷。
+如果此订阅已存在云卷，则这些卷将显示在新的工作环境中。您可以从BlueXP添加其他云卷。
 
 如果此订阅不存在任何云卷，请立即创建。
 

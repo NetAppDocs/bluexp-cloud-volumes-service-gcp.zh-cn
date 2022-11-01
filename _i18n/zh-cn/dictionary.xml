@@ -2,13 +2,10 @@
 <blocks>
   <block id="597907fb22ffd6d5d99abe19205161d6" category="summary">按照以下步骤快速入门，或访问链接以获取完整详细信息。</block>
   <block id="04476610d425410da3c197a32de6a851" category="doc">Cloud Volumes Service for Google Cloud 快速入门</block>
-  <block id="51854a19c4259f68487a6142b24a127b" category="paragraph">在 Google 中，启用适用于 GCP 的 Cloud Volumes Service API ，以便 Cloud Manager 可以管理订阅和云卷。</block>
   <block id="95b3ec34634e3102d6acf0de3fc1d2fc" category="inline-link-macro">了解如何启用 API</block>
   <block id="09343065e2ebc25d01e7ea8194218f67" category="paragraph"><block ref="9726afe0fed23e53ca72118b2c823abb" category="inline-link-macro-rx"></block>。</block>
-  <block id="b37f2372acf4547f9f0ef25572764639" category="paragraph">在 Google 中，创建服务帐户和角色，以便 Cloud Manager 可以访问您的 Cloud Volumes Service for Google Cloud 帐户。</block>
   <block id="46b491767cd12d81f9bf9593f5a96cf7" category="inline-link-macro">了解如何设置服务帐户</block>
   <block id="28d2901977b5fc7c248b5b66937c0876" category="paragraph"><block ref="73d99899af631bbb52840dc78039ca4d" category="inline-link-macro-rx"></block>。</block>
-  <block id="dd50973260de02b147ef0408f27d7b00" category="paragraph">在 Cloud Volumes Service 中，单击 * 添加工作环境 * &gt; * Google Cloud* &gt; * * ，然后提供有关服务帐户和 Google Cloud 项目的详细信息。</block>
   <block id="328958ba41a282fb8b8b971eb10845bd" category="inline-link-macro">了解如何创建工作环境</block>
   <block id="75aec57e5da1cc40dc30b7d1be476ab4" category="paragraph"><block ref="87d286565b204dd2a8d4bf83463a6fe9" category="inline-link-macro-rx"></block>。</block>
   <block id="5876c30cdb96c38d4cc2497feffde111" category="summary">您可以为每个卷创建一个快照策略，以便可以从较早的时间恢复或还原卷的整个内容。您还可以根据需要为云卷创建按需快照。</block>
@@ -58,13 +55,11 @@
   <block id="2c55e8dc4183c50c0009f5d04bc6a083" category="list-text">进行更改并单击 * 更新卷 * 。</block>
   <block id="ff74d9d1d3fca1c7a3ef1f4d83f84caa" category="inline-link-macro">挂载云卷</block>
   <block id="f4b43cd0d32ccc6ae1ae7fd55ec60faf" category="paragraph">继续 <block ref="711ebf19377f2c6ac55625f313ee444a" category="inline-link-macro-rx"></block>。</block>
-  <block id="a8867a21a7fa1494ec13e3530d19b978" category="summary">Cloud Manager 需要通过 Google 云服务帐户访问 Cloud Volumes Service API 和适当的权限。</block>
   <block id="40b96cc305f26bed96812c2920065f5d" category="doc">设置 Google Cloud</block>
   <block id="c0d5abaa52a2adc8b50cf6748143a972" category="section-title">启用 Cloud Volumes Service API</block>
   <block id="db680318754971180f12e167ae5f6325" category="paragraph">在 Google Cloud Shell 中，运行以下命令以启用 Cloud Volumes Service API ：</block>
   <block id="c4c67ba5b51827067dc9257fb3040a30" category="paragraph">`gcloud -project=&lt;my-cvs-project&gt; 服务支持 cloudvolumesgcp-api.netapp.com`</block>
   <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">设置服务帐户</block>
-  <block id="91066c1fc41c9558d9b205e32bcfb6ad" category="paragraph">完成以下任务， Cloud Manager 才能访问您的 Google Cloud 项目：</block>
   <block id="cb939d621f46e6895da8fb3a52fbcf83" category="list-text">创建新的服务帐户</block>
   <block id="172cabf35e2da2e485725633d4544c4b" category="list-text">将新服务帐户成员添加到项目中并为其分配特定角色（权限）</block>
   <block id="b8da17ea9f82689a4cc87ac02b337328" category="list-text">为用于向 Google 进行身份验证的服务帐户创建并下载密钥对</block>
@@ -133,33 +128,24 @@
   <block id="7ae2f6cdaa02d5b8678d14f3f489a073" category="list-text">利用高效的自动化快照保护数据。</block>
   <block id="17872268d34a8da9354d5922e34fce78" category="list-text">通过快速克隆加快应用程序开发速度。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
-  <block id="251d0a3ac74b0cb370e4a290d007e109" category="paragraph">Cloud Volumes Service for Google Cloud 创建的卷将计入您的服务订阅费用，而不是通过 Cloud Manager 收取费用。</block>
-  <block id="f200eca2e2bf55c13ad2668dfdc87204" category="paragraph">从 Cloud Manager 发现适用于 Google Cloud 的 Cloud Volumes Service 区域或卷不收取任何费用。</block>
   <block id="bf3796a4651f53d9a137d45e05610b30" category="inline-link-macro">在 Google Cloud Marketplace 中查看定价</block>
   <block id="8e1046c4123260638fe451866f95441f" category="paragraph"><block ref="8e1046c4123260638fe451866f95441f" category="inline-link-macro-rx"></block></block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">支持的区域</block>
   <block id="b781da83c6614728483efd98a6c45ff6" category="inline-link-macro">查看支持的 Google Cloud 区域</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="section-title">开始之前</block>
   <block id="ba1ec04f6bf2ff4dcb3909ab4182292d" category="inline-link">NetApp Cloud Volumes Service for Google Cloud 文档</block>
-  <block id="3e3b8b12f3052c6c4f7e3e489f336477" category="paragraph">Cloud Manager 可以发现现有的 Cloud Volumes Service for GCP 订阅和卷。请参见<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 如果您尚未设置订阅。</block>
   <block id="20c404f3ca0633629eee9b1b4ccd6737" category="section-title">获取帮助</block>
-  <block id="44812774d63355a78e8078a40c0b3218" category="paragraph">有关 Cloud Manager 中 Cloud Volumes Service 操作的一般问题，请使用 Cloud Manager 聊天工具。</block>
   <block id="10f5b4e8583801dbea2ede6fbb4e4ae4" category="paragraph">有关适用于 Google Cloud 的 Cloud Volumes Service 的一般问题，请发送电子邮件至 NetApp 的 Google Cloud 团队： gcinfo@netapp.com 。</block>
   <block id="bd32907910f13f745e4c4ad31b8b85f3" category="inline-link-macro">获取支持</block>
   <block id="8ce70b43ef3817ffad1e3c9c2e6eb7fe" category="paragraph">对于与云卷相关的技术问题，您可以从 Google Cloud Console 创建技术支持案例。请参见 <block ref="1229b64310846c261ec2fb9cb0c3c4af" category="inline-link-macro-rx"></block> 了解详细信息。</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="section-title">相关链接</block>
-  <block id="8f27ddb27510b2f60749b9cc933bb52c" category="inline-link">NetApp Cloud Central ：适用于 Google Cloud 的 Cloud Volumes Service</block>
-  <block id="b3a639154f19df26c3f5d0646c183067" category="list-text"><block ref="b3a639154f19df26c3f5d0646c183067" category="inline-link-rx"></block></block>
   <block id="4025377504ab93e000f14fb259cf7ed8" category="list-text"><block ref="4025377504ab93e000f14fb259cf7ed8" category="inline-link-rx"></block></block>
-  <block id="547aa8c8440b20c20efd24ce745a278e" category="summary">了解 Cloud Manager 中适用于 Google Cloud 的 Cloud Volumes Service 的新增功能。</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">新增功能</block>
   <block id="8751230100c974b7c3ae5adae22c0f7c" category="section-title">支持适用于 Google Cloud 的 Cloud Volumes Service</block>
-  <block id="9e376b2341c224a05e31bf464f6a9a2c" category="paragraph">现在，您可以直接从 Cloud Manager 管理适用于 Google Cloud 的 Cloud Volumes Service ：</block>
   <block id="69a622f3bb660c4a470d3d96f19e20be" category="list-text">设置和创建工作环境</block>
   <block id="bd596d5c57d76a146d26208cd81913fb" category="list-text">为 Linux 和 UNIX 客户端创建和管理 NFSv3 和 NFSv4.1 卷</block>
   <block id="104e3ba4c577e4723ae2db3aaab91044" category="list-text">为 Windows 客户端创建和管理 SMB 3.x 卷</block>
   <block id="f3f6d908876888ed386cf496a0f26e7c" category="list-text">创建，删除和还原卷快照</block>
-  <block id="1110fd6ec9eee21c0b646be4552ca0e0" category="summary">您可以通过 Cloud Manager 根据 Cloud Volumes Service for Google Cloud 订阅创建云卷。创建卷后，获取相关的挂载命令，以便将卷挂载到客户端。</block>
   <block id="9be5a2eae9bab39aee7d0161c137cd43" category="doc">创建并挂载卷</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">创建卷</block>
   <block id="0083dcd597da7bd592240dc28b767d85" category="paragraph">您可以在新的或现有的 Cloud Volumes Service for Google Cloud 帐户中创建 NFS 或 SMB 卷。云卷当前支持适用于 Linux 和 UNIX 客户端的 NFSv3 和 NFSv4.1 ，以及适用于 Windows 客户端的 SMB 3.x 。</block>
@@ -215,7 +201,6 @@
   <block id="5e65e2e51d0d291499a42f54730e645c" category="list-text">单击 * 添加卷 * 。</block>
   <block id="45dbe3c136df615d693b80183c277a3b" category="paragraph">此时，新卷将添加到工作环境中。</block>
   <block id="45bb1e3eab26b4479c1c1d8bdd6bf2f5" category="section-title">挂载云卷</block>
-  <block id="86a3efaabfd178d684bcd98f4cd6434c" category="paragraph">从 Cloud Manager 中访问挂载说明，以便将卷挂载到主机。</block>
   <block id="b80e741400898b02fa02ae6451578a24" category="admonition">使用客户端支持的突出显示的协议 / 拨号。</block>
   <block id="231483c3df5be28012c03a70cd182671" category="list-text">将鼠标悬停在卷上，然后单击 * 挂载卷 * 。</block>
   <block id="dc994023cf3cc855f2ced6fe0993f129" category="paragraph">NFS 和 SMB 卷会显示该协议的挂载说明。</block>
@@ -230,25 +215,16 @@
   <block id="d837d9033dcef75be4b4e49cdbf1cd31" category="paragraph"><block ref="d837d9033dcef75be4b4e49cdbf1cd31" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d2db85ec3f1d935da0d928bd1abc4623" category="list-text">按照实例的挂载说明映射网络驱动器。</block>
   <block id="8368ae9308b995fd5a75721d106d4ab0" category="paragraph">完成挂载说明中的步骤后，您已成功将云卷挂载到 GCP 实例。</block>
-  <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp 通过多种方式为 Cloud Manager 提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
-  <block id="8f6f9937d2a2acb76e352fb5e9dfff19" category="summary">您可以从 Cloud Manager 中删除 Cloud Volumes Service for Google Cloud 订阅以及所有现有卷。这些卷不会被删除，而是刚刚从 Cloud Manager 界面中删除。</block>
-  <block id="ea4e50481c541cefaed626458af5901f" category="doc">从 Cloud Manager 中删除 Cloud Volumes Service</block>
-  <block id="b2639f031018ddb46e5517acac1b12ef" category="admonition">不支持从 Cloud Manager 中删除 Cloud Volumes Service for Google Cloud 订阅。您只能通过 Google Cloud Console 执行此操作。</block>
   <block id="d6781b097f0c80fef5a0f286b314592a" category="list-text">在确认对话框中，单击 * 删除 * 。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
-  <block id="4940124e8487cb4ea36f1511a195cf66" category="inline-link-macro">有关 Cloud Manager 3.9 的注意事项</block>
-  <block id="c069fcc68c5dfa73ccc99924c836cae9" category="paragraph"><block ref="c069fcc68c5dfa73ccc99924c836cae9" category="inline-link-macro-rx"></block></block>
-  <block id="a1e613d4b9053de36bf30c8396728155" category="summary">在 Cloud Manager 中创建适用于 Google Cloud 的 Cloud Volumes Service 工作环境，以创建和管理卷和快照。</block>
   <block id="5747722bb189495cdccebf12276e2ffd" category="doc">创建适用于 Google Cloud 的 Cloud Volumes Service 工作环境</block>
-  <block id="871267ec860c59e6022484041d4d960e" category="paragraph">在 Cloud Manager 中创建适用于 Google Cloud 的 Cloud Volumes Service 工作环境，以便创建和管理卷和快照。</block>
   <block id="4dd9c591139d8d343bfac0ba8317d5ab" category="paragraph">无论您是已从 Google Cloud Console 创建卷，还是刚刚注册了适用于 Google Cloud 的 Cloud Volumes Service 且尚未创建卷，第一步都是根据您的 GCP 订阅为卷创建一个工作环境。</block>
   <block id="e3c3a0b2e9bccb0ed0678e6d2b6e5101" category="paragraph">如果此订阅已存在云卷，则这些卷将显示在新的工作环境中。如果您尚未为 GCP 订阅添加任何云卷，请在创建新的工作环境后执行此操作。</block>
   <block id="b7c67692dc38dca98edc62b4b29f83d8" category="admonition">如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要对每个项目执行此任务。</block>
   <block id="107a414e0bf62dc36bb6bbde7bcd19de" category="paragraph">为每个项目添加订阅时，您必须具有以下信息：</block>
   <block id="61d55eb42b926e824d916fc29d4b2127" category="list-text">服务帐户凭据（您下载的 JSON 专用密钥）</block>
   <block id="7adea0d9c77aabccd8bb67ae0a832d59" category="list-text">项目名称</block>
-  <block id="8160c66171203c7c10750b51088251a8" category="list-text">在 Cloud Manager 中，添加一个新的工作环境，选择位置 * Google Cloud* ，然后单击 * 继续 * 。</block>
   <block id="5437257338a1645396ca701fba74ee19" category="list-text">选择 * Cloud Volumes Service * 并单击 * 继续 * 。</block>
   <block id="68aa8fd14019bf80c98f197ea78d6acc" category="inline-image-macro">为 Cloud Volumes Service for GCP 订阅添加工作环境的屏幕截图。</block>
   <block id="e407814ff6ab4fb1b63ad38464f53b73" category="paragraph"><block ref="e407814ff6ab4fb1b63ad38464f53b73" category="inline-image-macro-rx" type="image"></block></block>
@@ -258,21 +234,17 @@
   <block id="98061d4b41ea7e9a2f4ca7bbd84f29b8" category="list-text">选择 Google Cloud 项目的名称。</block>
   <block id="756fe8c276796e025f6186df6fad79f9" category="inline-image-macro">为 Cloud Volumes Service for GCP 订阅添加凭据的屏幕截图。</block>
   <block id="9abb056391b209b3886860757a68afa6" category="paragraph"><block ref="9abb056391b209b3886860757a68afa6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d1536678830c26f77ea3d432c63adbd6" category="paragraph">Cloud Manager 可显示适用于 Google Cloud 的 Cloud Volumes Service 工作环境。</block>
   <block id="9940ae9ac5b6e6e70ab66bca7f76d51f" category="inline-image-macro">Cloud Volumes Service for Google Cloud 工作环境的屏幕截图。</block>
   <block id="9e4d57614250697869bda0f9844b2597" category="paragraph"><block ref="9e4d57614250697869bda0f9844b2597" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1a9e28288f987d2aa7cac4c83ef241dd" category="paragraph">如果此订阅已存在云卷，则这些卷将显示在新的工作环境中。您可以从 Cloud Manager 添加其他云卷。</block>
   <block id="a1f2a018efc72b6fcf1f805684b3c31a" category="paragraph">如果此订阅不存在任何云卷，请立即创建。</block>
   <block id="3d0356467ac23a5028ee4d6562d2ec45" category="inline-link-macro">开始创建卷</block>
   <block id="0ddd57362a29de92618e7d7d2bbf5cd4" category="paragraph"><block ref="8d370122f83467764fea492e485dddbb" category="inline-link-macro-rx"></block>。</block>
-  <block id="98d397091057eb9a16b0fe981b3ad815" category="summary">NetApp Cloud Volumes Service for Google Cloud 是一种集成文件服务，具有高级数据管理功能，可提供在云中迁移和运行企业工作负载所需的性能，可用性和安全性。这些文档介绍了如何使用 NetApp Cloud Manager 管理适用于 Google Cloud 的 Cloud Volumes Service 。</block>
   <block id="c164c685163f0ac5277f4c117b8c9c2c" category="doc">Cloud Volumes Service for Google Cloud 文档</block>
   <block id="07412ee3cf29f80fadf8fe52f687e709" category="summary">如果更改了 DNS 服务器或 Active Directory 域，则需要在 Cloud Volumes Service 中修改 SMB 服务器，以便它可以继续为客户端提供存储。</block>
   <block id="cfc8683315c11129a14f7b806a6f699c" category="doc">管理 Active Directory 配置</block>
   <block id="fd1f3b127eeb96862e4cde53a7ee6267" category="list-text">指定 SMB 服务器的设置：</block>
   <block id="c1ca298a9a9c76ca22ecf23ccaca6448" category="cell">为 SMB 服务器提供名称解析的 DNS 服务器的 IP 地址。引用多个服务器时，请使用逗号分隔 IP 地址，例如 172.31.25.223 ， 172.31.2.74 。</block>
   <block id="4bc62575e91aa40d329c1383c7a4fc46" category="list-text">单击 * 保存 * 以保存设置。</block>
-  <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在向 NetApp 技术支持创建支持案例之前，您需要先将 NetApp 支持站点帐户添加到 Cloud Manager 中，然后注册获取支持。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">注册以获得支持</block>
   <block id="bf5d97d0f930d16c4814a56d0ffddf42" category="sidebar">适用于 Google Cloud 的 Cloud Volumes Service 文档</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
@@ -284,7 +256,6 @@
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客社区</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
-  <block id="ff6c37cbc252e306a6b4e390ec13cbc1" category="sidebar">Cloud Central 博客</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="b2926ec1332a3412430ef48cae1f9bc2" category="sidebar">使用 Cloud Volumes Service</block>
   <block id="a633f0835832cc75f5a83248a8aa2ba8" category="section-title">2020 年 9 月 9 日</block>
@@ -292,23 +263,12 @@
   <block id="ced63c567878ed01730fce043c8ade96" category="inline-link-macro">创建快照策略</block>
   <block id="e45bbeae66bd2af06ef994ec4e9682b9" category="paragraph">了解操作方法 <block ref="4733085e77073b15a79afc35f8d9b896" category="inline-link-macro-rx"></block>。</block>
   <block id="0753d577f87c3ce7385e295a5cc23407" category="paragraph">继续挂载云卷。</block>
-  <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">添加 NSS 帐户</block>
-  <block id="de2241fea60d98698faaa196ff73ee80" category="paragraph">通过支持信息板，您可以从一个位置添加和管理所有 NetApp 支持站点帐户。</block>
-  <block id="5be2593b5948f30a15179a32daa73ee2" category="inline-link">注册一个</block>
-  <block id="14b05cf61f1aba58d38b393e69b69538" category="list-text">如果您还没有 NetApp 支持站点帐户，<block ref="0a8e82436ea73fe635862cfba3acf101" category="inline-link-rx"></block>。</block>
-  <block id="0046efb3377274ff3215d4b30269809e" category="list-text">在 Cloud Manager 控制台右上角，单击帮助图标，然后选择 * 支持 * 。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">单击 * NSS 管理 &gt; 添加 NSS 帐户 * 。</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出现提示时，单击 * 继续 * 以重定向到 Microsoft 登录页面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp 使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
-  <block id="f5fb4199485234c409525f430b737010" category="paragraph">此操作可使 Cloud Manager 使用您的 NSS 帐户。</block>
-  <block id="b4c6a2f33e7b2a38495546b8d5cd8e84" category="paragraph">请注意，此帐户必须是客户级别的帐户（而不是来宾或临时帐户）。</block>
-  <block id="fc65ebd4739f2f8ca46062a8280faea9" category="section-title">注册您的帐户以获得支持</block>
-  <block id="3e080914efe0d0ca025439fbb68d437f" category="paragraph">支持注册可从 Cloud Manager 的支持信息板中获取。</block>
-  <block id="fb07bf6b7698dbe934b8b2164d915484" category="list-text">在 * 资源 * 选项卡中，单击 * 注册支持 * 。</block>
-  <block id="392fb0270d0d84dbc3fdf8c67da1e5ad" category="list-text">选择要注册的 NSS 凭据，然后单击 * 注册 * 。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
   <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
@@ -322,29 +282,135 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
-  <block id="51719eefc68685ac0e2a11057a44b8be" category="paragraph">NetApp 通过多种方式为 Cloud Manager 及其云服务提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">自助支持</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天，每天 24 小时免费提供：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知识库</block>
   <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
-  <block id="76b571fb5edea1c1994fa0ff01f7b1e2" category="paragraph">通过 Cloud Manager 知识库搜索，查找有助于解决问题的文章。</block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社区</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
-  <block id="7f3490343cad8dc3bfdb72dd5d957e8d" category="paragraph">加入 Cloud Manager 社区，关注正在进行的讨论或创建新的讨论。</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档。</block>
-  <block id="3c313458d6e15dd2c4336e47118d0a8f" category="paragraph">您当前正在查看的 Cloud Manager 文档。</block>
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com （反馈电子邮件）</block>
-  <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进 Cloud Manager 。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 支持</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">除了上述自助支持选项之外，您还可以在激活支持后与 NetApp 支持工程师合作解决任何问题。</block>
-  <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在 Cloud Manager 中，单击 * 帮助 &gt; 支持 * 。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">在 "Technical Support" 下选择一个可用选项：</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">单击 * 致电我们 * 可查找 NetApp 技术支持的电话号码。</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">单击 * 打开问题描述 * ，选择一个选项，然后单击 * 发送 * 。</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp 代表将审核您的案例，并尽快与您联系。</block>
   <block id="f53392d049b9dddff4ba55ad74c96588" category="inline-image-macro">包含三个点的图标</block>
   <block id="4a6bf9c3f62fb119f3187ec42ecd340d" category="list-text">单击 <block ref="05d0267e107b3cc780d52df5db38eaef" category="inline-image-macro-rx" type="image"></block> 按钮，然后单击 * 管理 Active Directory* 。</block>
   <block id="b161c15ae834886d4dbb8c09b3bad848" category="paragraph">如果未配置 Active Directory ，则可以立即添加一个。如果配置了一个，则可以使用修改或删除设置 <block ref="05d0267e107b3cc780d52df5db38eaef" category="inline-image-macro-rx" type="image"></block> 按钮。</block>
   <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">包含三个点的图标。</block>
   <block id="c2f82cf362208ba8433ec2ba2152c7e3" category="list-text">单击 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> 按钮，然后单击 * 删除 Cloud Volumes Service * 。</block>
+  <block id="fd17cbb3db356dbaaa35d12e13567cab" category="paragraph">Cloud Volumes Service for Google Cloud创建的卷将通过您的服务订阅付费、而不是通过BlueXP (以前称为Cloud Manager)付费。</block>
+  <block id="b3153827b11df26704c2e383b3744bc7" category="paragraph">从BlueXP中发现适用于Google Cloud的Cloud Volumes Service 区域或卷不收取任何费用。</block>
+  <block id="acda26e32c6c45684cc6e4d9d34572cb" category="paragraph">BlueXP可以发现现有的Cloud Volumes Service for GCP订阅和卷。请参见<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 如果您尚未设置订阅。</block>
+  <block id="c53a96d0d98c2dc96155a20e8df0172d" category="paragraph">有关BlueXP中Cloud Volumes Service 操作的一般问题、请使用BlueXP聊天工具。</block>
+  <block id="d51fa5f4ad125ac84151a2b270209fff" category="inline-link">NetApp BlueXP：适用于Google Cloud的Cloud Volumes Service</block>
+  <block id="e733ab7fe70716f6a8ac15ccc73cba45" category="list-text"><block ref="e733ab7fe70716f6a8ac15ccc73cba45" category="inline-link-rx"></block></block>
+  <block id="245601b4ea40e651b249dd4137f77c21" category="paragraph">在Google中、启用Cloud Volumes Service for GCP API、以便BlueXP可以管理订阅和云卷。</block>
+  <block id="b4db720a6f69a27aed45fbdd1ab4b6ed" category="paragraph">在Google中、创建一个服务帐户和角色、以便BlueXP可以访问您的Cloud Volumes Service for Google Cloud帐户。</block>
+  <block id="6a122cba956a734449e67334e4204f2d" category="paragraph">在BlueXP中、单击*添加工作环境*&gt;* Google Cloud*&gt;* Cloud Volumes Service *、然后提供有关服务帐户和Google Cloud项目的详细信息。</block>
+  <block id="546e8223d9ca3eac26f1c4607fe857c4" category="summary">您可以从BlueXP中删除Cloud Volumes Service for Google Cloud订阅以及所有现有卷。这些卷不会被删除、而是刚刚从BlueXP界面中删除。</block>
+  <block id="b85b36830c35b1e3b85c911b3cd549f3" category="doc">从BlueXP中删除Cloud Volumes Service</block>
+  <block id="b14d1e068c8031b86314c9902472be25" category="admonition">不支持从BlueXP中删除Cloud Volumes Service for Google Cloud订阅。您只能通过 Google Cloud Console 执行此操作。</block>
+  <block id="fcbfae6c2a0f17d8dec232cd9458d76d" category="summary">NetApp Cloud Volumes Service for Google Cloud 是一种集成文件服务，具有高级数据管理功能，可提供在云中迁移和运行企业工作负载所需的性能，可用性和安全性。这些文档介绍了如何使用NetApp BlueXP管理适用于Google Cloud的Cloud Volumes Service。</block>
+  <block id="93456289ee6ad1673b37dffa674f01e0" category="summary">在BlueXP中创建适用于Google Cloud的Cloud Volumes Service 工作环境、以创建和管理卷和快照。</block>
+  <block id="e7a6701903bcc055d76abe5f57735fc4" category="paragraph">在BlueXP中创建适用于Google Cloud的Cloud Volumes Service 工作环境、以便创建和管理卷和快照。</block>
+  <block id="5114ae3ab85ff57731d055145402aec3" category="list-text">在BlueXP中、添加一个新的工作环境、选择位置* Google Cloud*、然后单击*继续*。</block>
+  <block id="dfbd2b6430dbf5217b7290c6fd750ffd" category="paragraph">BlueXP将显示适用于Google Cloud的Cloud Volumes Service 工作环境。</block>
+  <block id="b7d7c21e8643e79c0adcfe8f92bc9297" category="paragraph">如果此订阅已存在云卷，则这些卷将显示在新的工作环境中。您可以从BlueXP添加其他云卷。</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加一个NetApp 支持站点 帐户、然后注册获取支持。</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加NetApp 支持站点 (NSS)帐户、然后注册获取支持。</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支持注册概述</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">激活支持授权有两种形式的注册：</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">注册您的BlueXP帐户ID支持订阅(您的20位960xxxxxxxxx序列号、位于BlueXP的支持资源页面上)。</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">这是您在BlueXP中使用的任何服务的单一支持订阅ID。必须注册每个BlueXP帐户级别的支持订阅。</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在云提供商的市场中注册与订阅关联的Cloud Volumes ONTAP 序列号(即20位909201xxxxxxxx序列号)。</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">这些序列号通常称为_PAYGO序列号、并由BlueXP在部署Cloud Volumes ONTAP 时生成。</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">注册这两种类型的序列号可实现打开支持服务单和自动生成案例等功能。</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">您的注册方式取决于您是新客户还是现有客户或合作伙伴。</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">现有客户或合作伙伴</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">作为现有NetApp客户或合作伙伴、您可以使用NetApp 支持站点 (NSS) SSO帐户执行上述注册。在支持信息板中、BlueXP提供了一个* NSS管理*页面、您可以在其中添加NSS帐户。添加NSS帐户后、BlueXP会自动为您注册这些序列号。</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">了解如何添加NSS帐户</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>。</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">NetApp新手</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">如果您是NetApp的新用户、则必须在NetApp的支持注册站点上一次性注册您的BlueXP帐户ID序列号。完成此注册并创建新的NSS帐户后、您可以在BlueXP中使用此帐户进行自动注册。</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">了解如何向NetApp注册</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">将NSS帐户添加到BlueXP</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">通过支持信息板、您可以添加和管理NetApp 支持站点 帐户、以便与Cloud Manager结合使用。</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您拥有客户级别的帐户、则可以添加一个或多个NSS帐户。</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">如果您有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户一起添加。</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP控制台的右上角、单击帮助图标、然后选择*支持*。</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">通过这些操作、BlueXP可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">此帐户必须是客户级别的帐户（而不是来宾或临时帐户）。</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">由三个水平点组成的图标</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">成功登录后、NetApp将存储NSS用户名。这是系统生成的ID、映射到您的电子邮件。在* NSS Management*页面上、您可以从显示电子邮件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">如果您需要刷新登录凭据令牌、则中还会提供一个*更新凭据*选项 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 菜单。使用此选项将提示您重新登录。</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">向NetApp注册</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">如何注册NetApp支持取决于您是否已拥有NetApp 支持站点 (NSS)帐户。</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">具有NSS帐户的现有客户</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">如果您是拥有NSS帐户的NetApp客户、则只需通过BlueXP注册支持即可。</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">如果您尚未将NSS帐户添加到BlueXP、请执行此操作。</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*资源*页面上、单击*注册支持*。</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">显示帐户序列号和注册支持选项的屏幕截图</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">现有客户、但无NSS帐户</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">如果您是现有的NetApp客户、拥有现有许可证和序列号、但拥有_no_ NSS帐户、则只需创建一个NSS帐户即可。</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp 支持站点 用户注册表</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">完成以创建NetApp 支持站点 帐户<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">请务必选择适当的用户级别、通常为* NetApp客户/最终用户*。</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">请务必复制上面用于序列号字段的BlueXP帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp的新品牌</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客户、并且没有NSS帐户、请按照以下每个步骤进行操作。</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">从支持注册页面找到您的Cloud Manager帐户ID序列号。</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp的支持注册站点</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">导航到<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 并选择*我不是NetApp注册客户*。</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填写必填字段(带有红色星号的字段)。</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">在*产品线*字段中、选择*云管理器*、然后选择适用的计费提供商。</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">复制上述第2步中的Cloud Manager帐户序列号、完成安全检查、然后确认您已阅读NetApp的全球数据隐私政策。</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">系统会立即向提供的邮箱发送一封电子邮件、以完成此安全事务。如果验证电子邮件未在几分钟内收到、请务必检查您的垃圾邮件文件夹。</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">在电子邮件中确认操作。</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">确认将向NetApp提交您的请求、并建议您创建NetApp 支持站点 帐户。</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">请务必复制上面用于序列号字段的Cloud Manager帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此过程中、NetApp应与您联系。这是针对新用户的一次性入职练习。</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">拥有NetApp 支持站点 帐户后、您可以导航到BlueXP以添加此NSS帐户以供将来注册。</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp通过多种方式为BlueXP提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp通过多种方式为BlueXP及其云服务提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">搜索BlueXP知识库、查找有助于解决问题的文章。</block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进BlueXP。</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">了解如何注册获取支持</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">要使用*创建案例*功能、您必须先一次性注册您的BlueXP帐户ID序列号(即960xxxx)。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">在BlueXP中、单击*帮助&gt;支持*。</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您要通过电话与某人通话、请单击*致电我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">单击*创建案例*、向NetApp支持专家开一个服务单：</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp 支持站点 Account*：选择与创建支持案例的人员关联的适用帐户。除下面提供的其他电子邮件外、此人还将是NetApp的主要联系人。</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">如果您未看到NSS帐户、则可以导航到BlueXP支持部分中的* NSS管理*选项卡以将其添加到该选项卡中。</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服务*：选择与问题描述 关联的服务。例如、当特定于技术支持问题描述 时、如果服务中包含工作流或功能、则为BlueXP。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储、请选择* Cloud Volumes ONTAP *或* on-Prem*、然后选择关联的工作环境。</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作环境列表属于您在服务顶部横幅中选择的BlueXP帐户、工作空间和Connector的范围。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例优先级*：选择案例的优先级、可以是"低"、"中"、"高"或"严重"。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">要了解有关这些优先级的更多详细信息、请将鼠标悬停在字段名称旁边的信息图标上。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*问题描述 *：提供问题的详细问题描述 、包括任何适用的错误消息或您执行的故障排除步骤。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他电子邮件地址*：如果您希望其他人了解此问题描述 、请输入其他电子邮件地址。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">创建案例表的屏幕截图、可用于向NetApp支持部门创建案例。</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">此时将显示一个弹出窗口、其中包含您的支持案例编号。NetApp支持专家将审核您的案例、并尽快与您联系。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">有关支持案例的历史记录、您可以单击*设置&gt;时间线*并查找名为"创建支持案例"的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时、您可能会遇到以下错误消息：</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您无权针对选定服务创建案例"</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">此错误可能意味着NSS帐户及其关联的记录公司与BlueXP帐户序列号(即960xxxx)或工作环境序列号。您可以查看*创建案例*表顶部的NSS帐户列表以找到正确的匹配项、也可以使用以下选项之一寻求帮助：</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用产品内聊天功能</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">通过提交非技术案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="fb40390dc5f9af56c8a05dba3f355101" category="summary">BlueXP需要通过Google云服务帐户访问Cloud Volumes Service API并获得适当的权限。</block>
+  <block id="b87ecb1d933b8e5835c8e93327f7676e" category="paragraph">完成以下任务、以便BlueXP能够访问您的Google Cloud项目：</block>
+  <block id="1e7975b6d4ca1d78e46f2d83b9f0c334" category="summary">通过BlueXP、您可以根据Cloud Volumes Service for Google Cloud订阅创建云卷。创建卷后，获取相关的挂载命令，以便将卷挂载到客户端。</block>
+  <block id="cabcbbac4437e0dbf2eec9f1d07d973b" category="paragraph">从BlueXP中访问挂载说明、以便将卷挂载到主机。</block>
+  <block id="38165b0154e8ca385de9d17b6f390e0d" category="summary">了解BlueXP中适用于Google Cloud的Cloud Volumes Service 的新增功能。</block>
+  <block id="3831fedd132ba9d729ab12b97bb43833" category="paragraph">现在、您可以直接从BlueXP管理适用于Google Cloud的Cloud Volumes Service ：</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP通知</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
 </blocks>
