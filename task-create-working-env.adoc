@@ -23,6 +23,7 @@ summary: 在BlueXP中创建适用于Google Cloud的Cloud Volumes Service 工作�
 
 TIP: 如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要对每个项目执行此任务。
 
+.开始之前
 为每个项目添加订阅时，您必须具有以下信息：
 
 * 服务帐户凭据（您下载的 JSON 专用密钥）
@@ -48,6 +49,7 @@ image:screenshot_add_cvs_gcp_credentials.png["为 Cloud Volumes Service for GCP 
 
 
 
+.结果
 BlueXP将显示适用于Google Cloud的Cloud Volumes Service 工作环境。
 
 image:screenshot_cvs_gcp_cloud.png["Cloud Volumes Service for Google Cloud 工作环境的屏幕截图。"]
@@ -56,4 +58,5 @@ image:screenshot_cvs_gcp_cloud.png["Cloud Volumes Service for Google Cloud 工�
 
 如果此订阅不存在任何云卷，请立即创建。
 
+.下一步是什么？
 link:task-create-volumes.html["开始创建卷"]。
