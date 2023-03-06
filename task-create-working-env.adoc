@@ -31,11 +31,9 @@ TIP: 如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要对�
 
 
 .步骤
-. 在BlueXP中、添加一个新的工作环境、选择位置* Google Cloud*、然后单击*继续*。
-. 选择 * Cloud Volumes Service * 并单击 * 继续 * 。
-+
-image:screenshot_add_cvs_gcp_working_env.png["为 Cloud Volumes Service for GCP 订阅添加工作环境的屏幕截图。"]
-
+. 从BlueXP导航菜单中、选择*存储>画布*。
+. 在"画布"页面上、单击*添加工作环境*并选择* Google Cloud Platform*。
+. 在Cloud Volumes Service 旁边、选择*发现*。
 . 提供有关 Cloud Volumes Service 订阅的信息：
 +
 .. 输入要使用的工作环境名称。
