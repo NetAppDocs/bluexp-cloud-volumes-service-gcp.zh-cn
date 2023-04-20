@@ -31,7 +31,7 @@ summary: 借助适用于 Google Cloud 的 NetApp Cloud Volumes Service ，您可
 
 == 成本
 
-Cloud Volumes Service for Google Cloud创建的卷将通过您的服务订阅付费、而不是通过BlueXP (以前称为Cloud Manager)付费。
+Cloud Volumes Service for Google Cloud创建的卷将计入您的服务订阅、而不是通过BlueXP进行收费。
 
 从BlueXP中发现适用于Google Cloud的Cloud Volumes Service 区域或卷不收取任何费用。
 
