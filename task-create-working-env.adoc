@@ -16,9 +16,9 @@ summary: 在BlueXP中创建适用于Google Cloud的Cloud Volumes Service 工作�
 [role="lead"]
 在BlueXP中创建适用于Google Cloud的Cloud Volumes Service 工作环境、以便创建和管理卷和快照。
 
-无论您是已从 Google Cloud Console 创建卷，还是刚刚注册了适用于 Google Cloud 的 Cloud Volumes Service 且尚未创建卷，第一步都是根据您的 GCP 订阅为卷创建一个工作环境。
+无论您是否已从Google云控制台创建卷、或者您刚刚注册了适用于Google Cloud的Cloud Volumes Service但尚未创建卷、第一步都是根据您的Google Cloud订阅为卷创建工作环境。
 
-如果此订阅已存在云卷，则这些卷将显示在新的工作环境中。如果您尚未为 GCP 订阅添加任何云卷，请在创建新的工作环境后执行此操作。
+如果此订阅已存在云卷，则这些卷将显示在新的工作环境中。如果您尚未为Google Cloud订阅添加任何云卷、请在创建新的工作环境后再添加。
 
 
 TIP: 如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要对每个项目执行此任务。
@@ -41,7 +41,7 @@ TIP: 如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要对�
 .. 选择 Google Cloud 项目的名称。
 .. 单击 * 继续 * 。
 +
-image:screenshot_add_cvs_gcp_credentials.png["为 Cloud Volumes Service for GCP 订阅添加凭据的屏幕截图。"]
+image:screenshot_add_cvs_gcp_credentials.png["为Cloud Volumes Service for Google Cloud订阅添加凭据的屏幕截图。"]
 
 
 

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
-  <block id="597907fb22ffd6d5d99abe19205161d6" category="summary">按照以下步骤快速入门，或访问链接以获取完整详细信息。</block>
-  <block id="04476610d425410da3c197a32de6a851" category="doc">Cloud Volumes Service for Google Cloud 快速入门</block>
-  <block id="95b3ec34634e3102d6acf0de3fc1d2fc" category="inline-link-macro">了解如何启用 API</block>
-  <block id="09343065e2ebc25d01e7ea8194218f67" category="paragraph"><block ref="9726afe0fed23e53ca72118b2c823abb" category="inline-link-macro-rx"></block>。</block>
-  <block id="46b491767cd12d81f9bf9593f5a96cf7" category="inline-link-macro">了解如何设置服务帐户</block>
-  <block id="28d2901977b5fc7c248b5b66937c0876" category="paragraph"><block ref="73d99899af631bbb52840dc78039ca4d" category="inline-link-macro-rx"></block>。</block>
-  <block id="328958ba41a282fb8b8b971eb10845bd" category="inline-link-macro">了解如何创建工作环境</block>
-  <block id="75aec57e5da1cc40dc30b7d1be476ab4" category="paragraph"><block ref="87d286565b204dd2a8d4bf83463a6fe9" category="inline-link-macro-rx"></block>。</block>
   <block id="5876c30cdb96c38d4cc2497feffde111" category="summary">您可以为每个卷创建一个快照策略，以便可以从较早的时间恢复或还原卷的整个内容。您还可以根据需要为云卷创建按需快照。</block>
   <block id="bf7d38473ac37a5a084d9d1f21a4002c" category="doc">管理云卷快照</block>
   <block id="2530ad97c013f5d8d9c69004a4e7ee67" category="section-title">创建按需快照</block>
@@ -56,10 +48,7 @@
   <block id="ff74d9d1d3fca1c7a3ef1f4d83f84caa" category="inline-link-macro">挂载云卷</block>
   <block id="f4b43cd0d32ccc6ae1ae7fd55ec60faf" category="paragraph">继续 <block ref="711ebf19377f2c6ac55625f313ee444a" category="inline-link-macro-rx"></block>。</block>
   <block id="40b96cc305f26bed96812c2920065f5d" category="doc">设置 Google Cloud</block>
-  <block id="c0d5abaa52a2adc8b50cf6748143a972" category="section-title">启用 Cloud Volumes Service API</block>
-  <block id="db680318754971180f12e167ae5f6325" category="paragraph">在 Google Cloud Shell 中，运行以下命令以启用 Cloud Volumes Service API ：</block>
   <block id="c4c67ba5b51827067dc9257fb3040a30" category="paragraph">`gcloud -project=&lt;my-cvs-project&gt; 服务支持 cloudvolumesgcp-api.netapp.com`</block>
-  <block id="ec8725380aa2f688c9b9d45557c44600" category="section-title">设置服务帐户</block>
   <block id="cb939d621f46e6895da8fb3a52fbcf83" category="list-text">创建新的服务帐户</block>
   <block id="172cabf35e2da2e485725633d4544c4b" category="list-text">将新服务帐户成员添加到项目中并为其分配特定角色（权限）</block>
   <block id="b8da17ea9f82689a4cc87ac02b337328" category="list-text">为用于向 Google 进行身份验证的服务帐户创建并下载密钥对</block>
@@ -149,7 +138,6 @@
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="section-title">创建卷</block>
   <block id="0083dcd597da7bd592240dc28b767d85" category="paragraph">您可以在新的或现有的 Cloud Volumes Service for Google Cloud 帐户中创建 NFS 或 SMB 卷。云卷当前支持适用于 Linux 和 UNIX 客户端的 NFSv3 和 NFSv4.1 ，以及适用于 Windows 客户端的 SMB 3.x 。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="list-title">开始之前</block>
-  <block id="ce18c1db074bb9e5c1d0abfee30e098f" category="list-text">如果要在 GCP 中使用 SMB 、则必须设置 DNS 和 Active Directory 。</block>
   <block id="f153caba90fc4134024f9b4c3eeadea8" category="list-text">在计划创建 SMB 卷时，您必须具有可连接到的 Windows Active Directory 服务器。您将在创建卷时输入此信息。此外，请确保管理员用户能够在指定的组织单位（ OU ）路径中创建计算机帐户。</block>
   <block id="3a9d2e9f2ef6e95de617c14d2e4a4ef4" category="list-text">选择工作环境，然后单击 * 添加新卷 * 。</block>
   <block id="a88cc7492eb95c6a27a508257cb9c7d3" category="list-text">在详细信息和位置页面中，输入有关卷的详细信息：</block>
@@ -213,13 +201,10 @@
   <block id="dd92d715112689203a9d21e0c4638b23" category="inline-image-macro">SMB 卷的挂载说明</block>
   <block id="d837d9033dcef75be4b4e49cdbf1cd31" category="paragraph"><block ref="d837d9033dcef75be4b4e49cdbf1cd31" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d2db85ec3f1d935da0d928bd1abc4623" category="list-text">按照实例的挂载说明映射网络驱动器。</block>
-  <block id="8368ae9308b995fd5a75721d106d4ab0" category="paragraph">完成挂载说明中的步骤后，您已成功将云卷挂载到 GCP 实例。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="d6781b097f0c80fef5a0f286b314592a" category="list-text">在确认对话框中，单击 * 删除 * 。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
   <block id="5747722bb189495cdccebf12276e2ffd" category="doc">创建适用于 Google Cloud 的 Cloud Volumes Service 工作环境</block>
-  <block id="4dd9c591139d8d343bfac0ba8317d5ab" category="paragraph">无论您是已从 Google Cloud Console 创建卷，还是刚刚注册了适用于 Google Cloud 的 Cloud Volumes Service 且尚未创建卷，第一步都是根据您的 GCP 订阅为卷创建一个工作环境。</block>
-  <block id="e3c3a0b2e9bccb0ed0678e6d2b6e5101" category="paragraph">如果此订阅已存在云卷，则这些卷将显示在新的工作环境中。如果您尚未为 GCP 订阅添加任何云卷，请在创建新的工作环境后执行此操作。</block>
   <block id="b7c67692dc38dca98edc62b4b29f83d8" category="admonition">如果您在多个 Google Cloud 项目中拥有订阅和卷，则需要对每个项目执行此任务。</block>
   <block id="107a414e0bf62dc36bb6bbde7bcd19de" category="paragraph">为每个项目添加订阅时，您必须具有以下信息：</block>
   <block id="61d55eb42b926e824d916fc29d4b2127" category="list-text">服务帐户凭据（您下载的 JSON 专用密钥）</block>
@@ -228,8 +213,6 @@
   <block id="5a341ba1dd9ba8680efd382c4f5778ad" category="list-text">输入要使用的工作环境名称。</block>
   <block id="56bab707c78784ba9b87a1e53b01fb02" category="list-text">复制 / 粘贴您在上述步骤中下载的 JSON 专用密钥。</block>
   <block id="98061d4b41ea7e9a2f4ca7bbd84f29b8" category="list-text">选择 Google Cloud 项目的名称。</block>
-  <block id="756fe8c276796e025f6186df6fad79f9" category="inline-image-macro">为 Cloud Volumes Service for GCP 订阅添加凭据的屏幕截图。</block>
-  <block id="9abb056391b209b3886860757a68afa6" category="paragraph"><block ref="9abb056391b209b3886860757a68afa6" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9940ae9ac5b6e6e70ab66bca7f76d51f" category="inline-image-macro">Cloud Volumes Service for Google Cloud 工作环境的屏幕截图。</block>
   <block id="9e4d57614250697869bda0f9844b2597" category="paragraph"><block ref="9e4d57614250697869bda0f9844b2597" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1f2a018efc72b6fcf1f805684b3c31a" category="paragraph">如果此订阅不存在任何云卷，请立即创建。</block>
@@ -283,13 +266,9 @@
   <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">包含三个点的图标。</block>
   <block id="c2f82cf362208ba8433ec2ba2152c7e3" category="list-text">单击 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> 按钮，然后单击 * 删除 Cloud Volumes Service * 。</block>
   <block id="b3153827b11df26704c2e383b3744bc7" category="paragraph">从BlueXP中发现适用于Google Cloud的Cloud Volumes Service 区域或卷不收取任何费用。</block>
-  <block id="acda26e32c6c45684cc6e4d9d34572cb" category="paragraph">BlueXP可以发现现有的Cloud Volumes Service for GCP订阅和卷。请参见<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 如果您尚未设置订阅。</block>
   <block id="c53a96d0d98c2dc96155a20e8df0172d" category="paragraph">有关BlueXP中Cloud Volumes Service 操作的一般问题、请使用BlueXP聊天工具。</block>
   <block id="d51fa5f4ad125ac84151a2b270209fff" category="inline-link">NetApp BlueXP：适用于Google Cloud的Cloud Volumes Service</block>
   <block id="e733ab7fe70716f6a8ac15ccc73cba45" category="list-text"><block ref="e733ab7fe70716f6a8ac15ccc73cba45" category="inline-link-rx"></block></block>
-  <block id="245601b4ea40e651b249dd4137f77c21" category="paragraph">在Google中、启用Cloud Volumes Service for GCP API、以便BlueXP可以管理订阅和云卷。</block>
-  <block id="b4db720a6f69a27aed45fbdd1ab4b6ed" category="paragraph">在Google中、创建一个服务帐户和角色、以便BlueXP可以访问您的Cloud Volumes Service for Google Cloud帐户。</block>
-  <block id="6a122cba956a734449e67334e4204f2d" category="paragraph">在BlueXP中、单击*添加工作环境*&gt;* Google Cloud*&gt;* Cloud Volumes Service *、然后提供有关服务帐户和Google Cloud项目的详细信息。</block>
   <block id="546e8223d9ca3eac26f1c4607fe857c4" category="summary">您可以从BlueXP中删除Cloud Volumes Service for Google Cloud订阅以及所有现有卷。这些卷不会被删除、而是刚刚从BlueXP界面中删除。</block>
   <block id="b85b36830c35b1e3b85c911b3cd549f3" category="doc">从BlueXP中删除Cloud Volumes Service</block>
   <block id="b14d1e068c8031b86314c9902472be25" category="admonition">不支持从BlueXP中删除Cloud Volumes Service for Google Cloud订阅。您只能通过 Google Cloud Console 执行此操作。</block>
@@ -358,11 +337,7 @@
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">下一步是什么？</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一个</block>
-  <block id="60c9d220e03340a34dceea57e2b0222f" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 启用 Cloud Volumes Service API</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">两个</block>
-  <block id="20ed45d1c1c6459f7df4f8fc85d64ba0" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 创建 GCP 服务帐户并下载凭据</block>
-  <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三个</block>
-  <block id="f14277432a50a858ea51d3dbce562088" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 创建适用于 GCP 的 Cloud Volumes Service 工作环境</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您拥有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户同时添加。</block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户ID序列号。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">复制上述第2步中的帐户序列号、完成安全检查、然后确认您已阅读NetApp的全球数据隐私政策。</block>
@@ -475,4 +450,26 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">获得云提供商文件服务支持</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">有关与云提供商文件服务、其基础架构或使用该服务的任何解决方案相关的技术支持、请参阅该产品的BlueXP文档中的"获得帮助"。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要获得针对BlueXP及其存储解决方案和服务的技术支持、请使用下面所述的支持选项。</block>
+  <block id="900cacb5971edc5fdcfdb258d6dba1e4" category="paragraph">无论您是否已从Google云控制台创建卷、或者您刚刚注册了适用于Google Cloud的Cloud Volumes Service但尚未创建卷、第一步都是根据您的Google Cloud订阅为卷创建工作环境。</block>
+  <block id="fa7b981545402e8580bddc3adf9cef7a" category="paragraph">如果此订阅已存在云卷，则这些卷将显示在新的工作环境中。如果您尚未为Google Cloud订阅添加任何云卷、请在创建新的工作环境后再添加。</block>
+  <block id="c99f684b010bc8f7b4fa8ee549806a49" category="inline-image-macro">为Cloud Volumes Service for Google Cloud订阅添加凭据的屏幕截图。</block>
+  <block id="8ee75aba94ba04e51fe54e738c576517" category="paragraph"><block ref="8ee75aba94ba04e51fe54e738c576517" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6fa4b509618baa240e76ba2859660da3" category="paragraph">BlueXP可以发现现有Cloud Volumes Service for Google Cloud订阅和卷。请参见<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 如果您尚未设置订阅。</block>
+  <block id="7db3ae7aa1d24eb06d62c0cb0ed678ae" category="list-text">如果要在Google Cloud中使用SMB、必须事先设置DNS和Active Directory。</block>
+  <block id="089ded181f5256b29409c1eafafd51b9" category="paragraph">完成挂载说明中的步骤后、您已成功将此云卷挂载到Google Cloud实例。</block>
+  <block id="6b0fb7c0d2cfa8f64fcb6049f7b1fcc7" category="summary">通过设置Google Cloud、然后创建工作环境、开始使用适用于Google Cloud的Cloud Volumes ONTAP。</block>
+  <block id="65ce4dce26160be29539699c6623e379" category="doc">入门工作流</block>
+  <block id="3e78595d1d3ae86258a7b0046782656b" category="paragraph">通过设置Google Cloud、然后创建工作环境、开始使用适用于Google Cloud的Cloud Volumes Service。</block>
+  <block id="28eda352be26509e42dcdad8ea712b08" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="1a521c21359bc598920e036b48976b8b" category="inline-link-macro-rx"></block></block>
+  <block id="3cbe6a41e088877beb0fdc0f033c9db7" category="paragraph">在Google中、启用Cloud Volumes Service API并创建服务帐户。</block>
+  <block id="333d97983b982d95aa66476af120900b" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> <block ref="17f92a667c153c4b71522d9f7388a1be" category="inline-link-macro-rx"></block></block>
+  <block id="e6892525cc09832738d2159589a818d6" category="paragraph">在BlueXP中、单击*添加工作环境*&gt;* Cloud*&gt;* Google Cloud*、然后提供有关服务帐户和Cloud Volumes Service项目的详细信息。</block>
+  <block id="2c5e9cc90fb536b4aa1861bd954ecd97" category="section-title">第1步：启用Cloud Volumes Service API</block>
+  <block id="1c5b39013ed220fe7410c674acea6cb3" category="paragraph">启用Cloud Volumes Service API、以便BlueXP可以管理订阅和云卷。</block>
+  <block id="62fe79c8badc2a334d45a4c907747183" category="list-text">从Google Cloud启动Cloud Shell会话。</block>
+  <block id="f7b252cf92cffa8bd8dccbbfdc5bf153" category="inline-link">Google Cloud文档：启动Cloud Shell</block>
+  <block id="774582c0b01eadfb3f8f0775e15a5220" category="paragraph"><block ref="774582c0b01eadfb3f8f0775e15a5220" category="inline-link-rx"></block></block>
+  <block id="7d4858380df2c179560798250655ff74" category="list-text">运行以下命令以启用Cloud Volumes Service API：</block>
+  <block id="9bbd421955a8eed4c188692bb2a2a4ea" category="section-title">第2步：设置服务帐户</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
 </blocks>

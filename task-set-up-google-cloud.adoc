@@ -18,15 +18,24 @@ BlueXP需要通过Google云服务帐户访问Cloud Volumes Service API并获得�
 
 
 
-== 启用 Cloud Volumes Service API
+== 第1步：启用Cloud Volumes Service API
 
-在 Google Cloud Shell 中，运行以下命令以启用 Cloud Volumes Service API ：
+启用Cloud Volumes Service API、以便BlueXP可以管理订阅和云卷。
 
+.步骤
+. 从Google Cloud启动Cloud Shell会话。
++
+https://cloud.google.com/shell/docs/launching-cloud-shell["Google Cloud文档：启动Cloud Shell"^]
+
+. 运行以下命令以启用Cloud Volumes Service API：
++
 `gcloud -project=<my-cvs-project> 服务支持 cloudvolumesgcp-api.netapp.com`
 
 
 
-== 设置服务帐户
+
+
+== 第2步：设置服务帐户
 
 完成以下任务、以便BlueXP能够访问您的Google Cloud项目：
 
