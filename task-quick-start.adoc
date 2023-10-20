@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: quick start, set up cloud volumes service 
-summary: 通过设置Google Cloud、然后创建工作环境、开始使用适用于Google Cloud的Cloud Volumes ONTAP。 
+summary: 通过设置Google Cloud、然后创建工作环境、开始使用适用于Google Cloud的Cloud Volumes Service。 
 ---
 = 入门工作流
 :hardbreaks:
