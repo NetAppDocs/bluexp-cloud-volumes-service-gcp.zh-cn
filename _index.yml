@@ -1,0 +1,29 @@
+---
+indexpage:
+  title: Cloud Volumes Service for Google Cloud 文档
+  summary: NetApp Cloud Volumes Service for Google Cloud 是一种集成文件服务，具有高级数据管理功能，可提供在云中迁移和运行企业工作负载所需的性能，可用性和安全性。这些文档介绍了如何使用NetApp
+    BlueXP管理适用于Google Cloud的Cloud Volumes Service。
+  keywords: bluexp-family,documentation, cloud
+  lead: NetApp Cloud Volumes Service for Google Cloud 是一种集成文件服务，具有高级数据管理功能，可提供在云中迁移和运行企业工作负载所需的性能，可用性和安全性。这些文档介绍了如何使用NetApp
+    BlueXP管理适用于Google Cloud的Cloud Volumes Service。
+  tiles:
+  - title: 入门
+    links:
+    - title: 了解适用于 Google Cloud 的 Cloud Volumes Service
+      url: concept-cvs-gcp.html
+    - title: 快速入门
+      url: task-quick-start.html
+  - title: 使用 Cloud Volumes Service
+    links:
+    - title: 创建卷
+      url: task-create-volumes.html
+    - title: 管理云卷快照
+      url: task-manage-snapshots.html
+  - title: 博客社区
+    links:
+    - title: NetApp 社区
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP博客
+      url: https://cloud.netapp.com/blog
+    - title: 云网络研讨会
+      url: https://cloud.netapp.com/events

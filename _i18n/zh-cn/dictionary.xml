@@ -243,7 +243,6 @@
   <block id="e45bbeae66bd2af06ef994ec4e9682b9" category="paragraph">了解操作方法 <block ref="4733085e77073b15a79afc35f8d9b896" category="inline-link-macro-rx"></block>。</block>
   <block id="0753d577f87c3ce7385e295a5cc23407" category="paragraph">继续挂载云卷。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp 使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
@@ -259,7 +258,6 @@
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社区</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档。</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com （反馈电子邮件）</block>
   <block id="f53392d049b9dddff4ba55ad74c96588" category="inline-image-macro">包含三个点的图标</block>
   <block id="4a6bf9c3f62fb119f3187ec42ecd340d" category="list-text">单击 <block ref="05d0267e107b3cc780d52df5db38eaef" category="inline-image-macro-rx" type="image"></block> 按钮，然后单击 * 管理 Active Directory* 。</block>
   <block id="b161c15ae834886d4dbb8c09b3bad848" category="paragraph">如果未配置 Active Directory ，则可以立即添加一个。如果配置了一个，则可以使用修改或删除设置 <block ref="05d0267e107b3cc780d52df5db38eaef" category="inline-image-macro-rx" type="image"></block> 按钮。</block>
@@ -310,7 +308,6 @@
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">搜索BlueXP知识库、查找有助于解决问题的文章。</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进BlueXP。</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服务*：选择与问题描述 关联的服务。例如、当特定于技术支持问题描述 时、如果服务中包含工作流或功能、则为BlueXP。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储、请选择* Cloud Volumes ONTAP *或* on-Prem*、然后选择关联的工作环境。</block>
@@ -457,7 +454,6 @@
   <block id="6fa4b509618baa240e76ba2859660da3" category="paragraph">BlueXP可以发现现有Cloud Volumes Service for Google Cloud订阅和卷。请参见<block ref="8cef80fbd20b45fcd51e638492e90799" category="inline-link-rx"></block> 如果您尚未设置订阅。</block>
   <block id="7db3ae7aa1d24eb06d62c0cb0ed678ae" category="list-text">如果要在Google Cloud中使用SMB、必须事先设置DNS和Active Directory。</block>
   <block id="089ded181f5256b29409c1eafafd51b9" category="paragraph">完成挂载说明中的步骤后、您已成功将此云卷挂载到Google Cloud实例。</block>
-  <block id="6b0fb7c0d2cfa8f64fcb6049f7b1fcc7" category="summary">通过设置Google Cloud、然后创建工作环境、开始使用适用于Google Cloud的Cloud Volumes ONTAP。</block>
   <block id="65ce4dce26160be29539699c6623e379" category="doc">入门工作流</block>
   <block id="3e78595d1d3ae86258a7b0046782656b" category="paragraph">通过设置Google Cloud、然后创建工作环境、开始使用适用于Google Cloud的Cloud Volumes Service。</block>
   <block id="28eda352be26509e42dcdad8ea712b08" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> <block ref="1a521c21359bc598920e036b48976b8b" category="inline-link-macro-rx"></block></block>
@@ -472,4 +468,5 @@
   <block id="7d4858380df2c179560798250655ff74" category="list-text">运行以下命令以启用Cloud Volumes Service API：</block>
   <block id="9bbd421955a8eed4c188692bb2a2a4ea" category="section-title">第2步：设置服务帐户</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp使用Microsoft Entra ID作为特定于支持和许可的身份验证服务的身份提供程序。</block>
 </blocks>
